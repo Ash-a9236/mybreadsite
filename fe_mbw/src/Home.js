@@ -14,7 +14,7 @@ const Home = () => {
 
                     <div class="heroText">
                         <h1><strong>MAKE YOUR OWN BREAD</strong></h1>
-                        <button class="roundButton"><a id="heroButton" href="./gallery.html"><b>DISCOVER</b></a></button>
+                        <button class="roundButton"><a id="heroButton" href="/Gallery"><b>DISCOVER</b></a></button>
                      </div>
                 </div>
             </header>

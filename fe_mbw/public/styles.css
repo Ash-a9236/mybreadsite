@@ -67,6 +67,16 @@ nav {
     color: var(--accent);
 }
 
+#bar {
+    background-color: var(--bg);
+    box-shadow: 0 0 1em 1em var(--bg);
+    padding: 3em;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9998;
+}
+
 #currentPage {
     color: var(--accent);
 }
@@ -166,12 +176,19 @@ footer {
     margin-top: 10rem;
 }
 
+figure {
+    background-color: var(--box);
+    padding: 1em;
+    border-radius: 3em;
+    box-shadow: 0 0 2px 2px var(--box);
+}
+
 figure > img {
     width: 20rem;
     height: 20rem;
     object-fit: cover;
 
-    border-radius: 20px;
+    border-radius: 2em;
 }
 
 figure > img:hover {
@@ -179,12 +196,18 @@ figure > img:hover {
     transform: scale(1.15);
 }
 
+figure > img:not(:hover) {
+    transition: 0.8s;
+    transform: scale(1);
+}
+
 figcaption {
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 
     font-size: 150%;
+    color: var(--bg);
 }
 
 

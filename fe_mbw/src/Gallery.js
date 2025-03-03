@@ -47,10 +47,52 @@ const Gallery = () => {
             </figure>
 
             <figure>
-                <img id="Gallery/bagelsBreadImg"
+                <img id="bagelsBreadImg"
                 src={bagels}
                 alt=""/>
                 <figcaption>Bagels</figcaption>
+            </figure>
+
+            <figure>
+                <img id=""
+                src={bagels}
+                alt=""/>
+                <figcaption>AAAHHH</figcaption>
+            </figure>
+
+            <figure>
+                <img id=""
+                src={bagels}
+                alt=""/>
+                <figcaption>AAAHHH</figcaption>
+            </figure>
+
+            <figure>
+                <img id=""
+                src={bagels}
+                alt=""/>
+                <figcaption>AAAHHH</figcaption>
+            </figure>
+
+            <figure>
+                <img id=""
+                src={bagels}
+                alt=""/>
+                <figcaption>AAAHHH</figcaption>
+            </figure>
+
+            <figure>
+                <img id=""
+                src={bagels}
+                alt=""/>
+                <figcaption>AAAHHH</figcaption>
+            </figure>
+
+            <figure>
+                <img id=""
+                src={bagels}
+                alt=""/>
+                <figcaption>AAAHHH</figcaption>
             </figure>
         </div>
       </>
